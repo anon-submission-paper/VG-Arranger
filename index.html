@@ -8,7 +8,7 @@
 </head>
 <body>
          <center>
-          <h1 class="title">Music arrangement generation project demo page</h1>
+          <h1 class="title">VG-Arranger: Automatic Arrangement Generation for Video Game Music</h1>
           <br/>
           <font size="5">
             <a href="#ComingSoon">
@@ -18,13 +18,427 @@
         
         <div class="instructions">
           <p>
-            &nbsp &nbsp &nbsp &nbsp Thanks for your interest in our project. Our project is still in progress.
+            &nbsp &nbsp &nbsp &nbsp [left for Abstract]
           </p>
+
+        </div>
+
+        <!-- Instructions on using this project -->
+        <div class="instructions">
+          <h2>
+            Arrangement samples (video game music)
+          </h2>
           <p>
-            &nbsp &nbsp &nbsp &nbsp The progress of this research, and the summary of the study's results will be updated on this page when it becomes available. 
+            These 15 groups of stimuli were picked randomly from generated outputs, and used in our listen study. Each row below shows a source music excerpt and its arrangements, where the arrangements are either composed by human composers or arranged by algorithms. 
           </p>
         </div>
         
+          <div class="container">
+          <input type="radio" id="page1" name="page" checked>
+          <input type="radio" id="page2" name="page">
+          <input type="radio" id="page3" name="page">
+
+          <div class="nav">
+            <label for="page1">Page 1</label>
+            <label for="page2">Page 2</label>
+            <label for="page3">Page 3</label>
+          </div>
+
+          <div id="content1" class="page">
+                    <table>
+                        <thead>
+                            <tr style="background-color: #333; color: #fff;">
+                              <th style="text-align: center;">Name of the source music</th>
+                              <th style="text-align: center;">Source music</th>
+                              <th style="text-align: center;">Human</th>
+                              <th style="text-align: center;">VG-Arranger</th>
+                              <th style="text-align: center;">Structured-Arranger</th>
+                              <th style="text-align: center;">Q&A</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                              <td style="text-align: center;">"Main Theme", <i>Zelda The Wand of Gamelon</i></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/05/05.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/05/05_hu.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/05/05_vgPost.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/05/05_str.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/05/05_QA.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                          </tr>
+                          <tr>
+                              <td style="text-align: center;">"Cross Your Heart", <i>Haunted Castle</i></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/02/02.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/02/02_hu.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/02/02_vgPost.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/02/02_str.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/02/02_QA.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                          </tr>
+                          <tr>
+                              <td style="text-align: center;">"Dark World", <i>Final Fantasy VI</i></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/03/03.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/03/03_hu.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/03/03_vgPost.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/03/03_str.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/03/03_QA.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                          </tr>
+                          <tr>
+                              <td style="text-align: center;">"The Devils Lab", <i>Final Fantasy VI</i></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/04/04.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/04/04_hu.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/04/04_vgPost.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/04/04_str.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/04/04_QA.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                          </tr>
+                          <tr>
+                              <td style="text-align: center;">"Gourmet Race", <i>Kirbys Epic Yarn</i></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/10/10.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/10/10_hu.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/10/10_vgPost.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/10/10_str.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/10/10_QA.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+          <div id="content3" class="page">
+                          <table>
+                        <thead>
+                            <tr style="background-color: #333; color: #fff;">
+                              <th style="text-align: center;">Name of the source music</th>
+                              <th style="text-align: center;">Source music</th>
+                              <th style="text-align: center;">Human</th>
+                              <th style="text-align: center;">VG-Arranger</th>
+                              <th style="text-align: center;">Structured-Arranger</th>
+                              <th style="text-align: center;">Q&A</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                              <td style="text-align: center;">"Yoshi Star Galaxy", <i>Super Mario Galaxy 2</i></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/25/25.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/25/25_hu.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/25/25_vgPost.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/25/25_str.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/25/25_QA.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                          </tr>
+                          <tr>
+                              <td style="text-align: center;">"Boss Defeated", <i>The Legend of Zelda Twilight Princess</i></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/23/23.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/23/23_hu.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/23/23_vgPost.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/23/23_str.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/23/23_QA.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                          </tr>
+                          <tr>
+                              <td style="text-align: center;">"Pipe Room", <i>Super Mario Galaxy 2</i></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/26/26.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/26/26_hu.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/26/26_vgPost.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/26/26_str.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/26/26_QA.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                          </tr>
+                          <tr>
+                              <td style="text-align: center;">"Whats in the Box?", <i>Kirby Air Ride</i></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/08/08.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/08/08_hu.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/08/08_vgPost.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/08/08_str.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/08/08_QA.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                          </tr>
+                          <tr>
+                              <td style="text-align: center;">"Underground Water Channel", <i>Dark Cloud 2</i></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/28/28.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/28/28_hu.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/28/28_vgPost.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/28/28_str.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/28/28_QA.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                    <div id="content2" class="page">
+                          <table>
+                        <thead>
+                            <tr style="background-color: #333; color: #fff;">
+                              <th style="text-align: center;">Name of the source music</th>
+                              <th style="text-align: center;">Source music</th>
+                              <th style="text-align: center;">Human</th>
+                              <th style="text-align: center;">VG-Arranger</th>
+                              <th style="text-align: center;">Structured-Arranger</th>
+                              <th style="text-align: center;">Q&A</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                              <td style="text-align: center;">"Judgement Day", <i>Fantasy VII</i></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/11/11.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/11/11_hu.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/11/11_vgPost.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/11/11_str.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/11/11_QA.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                          </tr>
+                          <tr>
+                              <td style="text-align: center;">"Cossacks Citadel 2", <i>Mega Man 4</i></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/14/14.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/14/14_hu.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/14/14_vgPost.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/14/14_str.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/14/14_QA.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                          </tr>
+                          <tr>
+                              <td style="text-align: center;">"Burst Man", <i>Mega Man 7</i></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/15/15.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/15/15_hu.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/15/15_vgPost.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/15/15_str.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/15/15_QA.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                          </tr>
+                          <tr>
+                              <td style="text-align: center;">"Costa Del Sol", <i>Final Fantasy VII</i></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/16/16.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/16/16_hu.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/16/16_vgPost.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/16/16_str.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/16/16_QA.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                          </tr>
+                          <tr>
+                              <td style="text-align: center;">"The Doll Maker of Bucuresti", <i>Touhou 7 Perfect Cherry Blossom</i></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/21/21.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/21/21_hu.mp3" type="audio/wav" controlslist="nodownload"> Your browser does not
+                                      support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/21/21_vgPost.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/21/21_str.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                              <td style="text-align: center;"> <audio controls="" style="width: 200px;">
+                                      <source src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/VGMIDI/21/21_QA.mp3" type="audio/wav"> Your browser
+                                      does not support the audio element.
+                                  </audio></td>
+                          </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </div>
         
       <br>
         
