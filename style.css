@@ -84,7 +84,7 @@ input[type="radio"] {
 }
 table {
     margin-bottom: 1em;
-    width: 90%;
+    width: 100%;
     font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
     font-size: .75em;
     border-collapse: separate;
@@ -95,6 +95,7 @@ table {
     flex-direction: column;
     align-items: center;
 }
+
 
 
 /* Navigation grid */
