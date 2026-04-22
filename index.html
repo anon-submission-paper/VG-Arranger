@@ -8,7 +8,7 @@
 </head>
 <body>
          <center>
-          <h1 class="title">VG-Arranger: Automatic Arrangement Generation for Video Game Music</h1>
+          <h1 class="title">VG-Arranger: Automatic Symbolic Arrangement Generation for Video Game Music</h1>
           <br/>
           <font size="5">
             <a href="#ComingSoon">
@@ -18,7 +18,7 @@
         
         <div class="instructions">
           <p>
-            &nbsp &nbsp &nbsp &nbsp [left for Abstract]
+            Arrangement techniques, including multi-instrument versions of works originally written for a solo instrument, are widely used in video game music composition, particularly within dynamic music systems (DMS), where they help create variety for players while preserving a sense of immersion. Existing automatic arranging approaches that generate multi-instrument versions of music from solo instrument pieces are usually confined to datasets consisting of 1980’s video game music, and percussion instruments are not encoded consistently. In this paper, to fill the gap of the lack of dataset, a Video Game Orchestration dataset (VGO) is proposed (1,836 pieces of orchestrated video game music), which includes music not only from early video games but also from contemporary video games. For model design, we propose an automatic arranging model (VG-Arranger) using cross‑attention‑based feature fusion techniques and following a self‑supervised training scheme, which is able to transfer instrumentation from reference pieces while preserving the temporal structure and stylistic consistency (melodic, harmonic, and textural) of the source music, and enabling the addition of percussion instruments to the instrument list. We demonstrate the effectiveness of VG-Arranger via a listening study, a feature-based evaluation, and a gameplay study.
           </p>
 
         </div>
@@ -524,7 +524,24 @@
         
       <!-- <midi-visualizer type="piano-roll" id="myVisualizer"></midi-visualizer> -->
 
-    <div class="instructions">
+      <div class="instructions">
+        <h2>
+          The VGO dataset
+        </h2>
+        <p>
+          The general distribution of music in the VGO dataset is shown in Figure 1. Figure 1(a) and (b) display the the distribution of piece durations and the number of instruments per piece. Figure 1(c) shows the distribution of the top 30 most commonly used instruments, where the occurrence frequencies of two types of percussion instruments (i.e., standard kit and orchestra kit) are among the top 15. 
+        </p>
+          <center>
+          
+            <img width="1200" style="width: 940px;height:300px" src="https://tomcollinsresearch.net/participantStudies/var24/arrangement/vgo_distribution.jpg" height="140">
+            <p>
+                Figure 1. General distribution of the VGO dataset.
+            </p>
+          </center>
+        
+      </div>
+    
+      <div class="instructions">
         <h2>
           Video game excerpts
         </h2>
