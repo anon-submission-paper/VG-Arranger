@@ -543,8 +543,48 @@
     
       <div class="instructions">
         <h2>
-          Video game excerpts
+          Gameplay study
         </h2>
+        <p>
+            VG-Arranger is proposed to support the diversification of video game music assets, specifically designed to be combined with vertical layering techniques in DMS. Finally, a gameplay study is conducted to evaluate its effectiveness in enhancing musical diversity, reduce the sense of repetition for players, and improving overall gameplay experience in gaming scenarios, both in isolation and in combination with horizontal resequencing techniques. To simulate the use of horizontal resequencing within this evaluation, the <a href="https://zenodo.org/records/14877299">
+                Variation Transformer (VaTr)</a> is introduced to generate variations. A racing game is selected as the test platform due to its simple and straightforward controls and the relatively stable emotional state during gameplay.
+        </p>
+        <h3>
+          Preparation for the game excerpt
+        </h3>
+        <p>
+            The visual content of the game excerpt is developed using the "Level 1" track from a Unity video game asset, <a href="https://assetstore-fallback.unity.com/packages/templates/packs/racing-creator-3-urp-322993"> <i>Racing Creator 3 (URP)</i></a>. 
+            To save participants' time and reduce the cognitive load required to navigate menus before entering the actual game, several interface components with pre-game interactions are removed from the original asset, specifically the main menu, vehicle selection and customisation screen, and the track selection screen.  
+            The original game asset contains three playable tracks, however, only the first track named "Level 1" is retained for this study. This decision is made to ensure the consistency of visual content across all participants. As a result, participants are placed directly onto the "Level 1" racing track upon launching the game, which ensures a controlled and focused gameplay experience. 
+        </p>
+        <h3>
+            Game mechanisms
+        </h3>
+        <p>
+            In the game, participants are required to complete three laps around the "Level 1" track, with the first vehicle to cross the finish line declared the winner. In each race, there are ten vehicles competing simultaneously. As the game is a single-player game, only one vehicle is controlled by the participant, while the remaining nine vehicles are driven by the built-in AI agents provided by the <i>Racing Creator 3 (URP)</i> asset. This AI-controlled competition ensures a consistent and repeatable race environment across all participants, as the behaviour of the competing vehicles remains algorithmically determined and is not subject to the variables introduced by human opponents.
+        </p>
+        <h3>
+            Game controls
+        </h3>
+        <p>
+            The game controls are intentionally kept simple to minimise the learning curve and ensure that participants could focus on the gameplay and music experience rather than on mastering complex mechanics. 
+            Steering and movement can be controlled using either the WASD keys or the arrow keys, allowing participants to accelerate, brake, and steer the vehicle. 
+            Additionally, participants could press the Left Shift key to activate a nitro boost, providing a temporary increase in speed. During gameplay, nitrous will be automatically collected. Once the nitrous is fully filled, collection will cease until the nitrous is used. 
+        </p>
+        <h3>
+            Stimuli
+        </h3>
+        <p>
+            For the gameplay study, three groups of video game excerpts are prepared. 
+            The source music for each group has different tempo and key signature settings. Specifically, the first piece is fast-paced in a minor key, the second piece is fast-paced in a major key, and the third piece is slow-paced in a minor key. 
+            <br><br>
+            All of these three groups use the same visual content, but apply different background music. In each group, there are four video game excerpts: a video game excerpt with a ~30-seconds background source music that loops, and the background music of the other three video game excerpts is diversified by applying the VaTr, VG-Arranger, and VaTr + VG-Arranger on the corresponding source music respectively. For the three video game excerpts whose background music is diversified through algorithm within each group, each of them has a background music playlist that contains 11 pieces of music (i.e., 10 pieces of music are diversified through algorithms alongside the corresponding source music). When a game asset is opened for the first time, the source music will always be played first, and then each piece of music within the playlist will be played randomly during gameplay. Upon the completion of a game round, including finishing three laps of racing or prematurely ending the game due to vehicle collisions and damage during gameplay, the currently playing music will cease and transition to the next piece of music. Video game excerpts used in our gameplay study can be accessed via the links in the Demo page.
+            <br><br>
+            When diversifying source music by using algorithms, we are imitating the process of music co-creation with AI. For instance, when applying VaTr and VG-Arranger to diversify the corresponding source music, algorithms are required to create 40 variations/arrangements for each piece of source music, and then the top-10 most satisfying pieces of music are selected manually. When applying VaTr + VG-Arranger, the selected top-10 most satisfying generated variation in each group is further arranged by VG-Arranger. 
+        </p>
+        <h3>
+          Video game excerpts
+        </h3>
         <p>
           Video game excerpts used in our gameplay study can be accessed through the following links: 
         </p>
